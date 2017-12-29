@@ -1,0 +1,573 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,500&subset=cyrillic');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans&subset=cyrillic');
+
+body {
+	font-family: 'PT Sans', sans-serif;
+	font-size: 16px;
+}
+
+#career {
+	background: url(../img/career.jpg) no-repeat center top;
+	margin-top: 30px;
+	padding-top: 30px;
+	margin-bottom: 45px;
+	text-align: center;
+	background-attachment: relative;
+	background-position: center;
+	min-height: 576px;
+	width: 100%;
+	background-size: 100%;
+	position: relative;
+
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+
+
+#jobs {
+	background: url(../img/jobs.jpg) no-repeat center top;
+	margin-top: 45px;
+	padding-top: 45px;
+	margin-bottom: 45px;
+	text-align: center;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 399px;
+	width: 100%;
+	background-size: 100%;
+	position: relative;
+
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#training {
+	background: url(../img/training.jpg) no-repeat center top;
+	margin-top: 30px;
+	padding-top: 30px;
+	margin-bottom: 45px;
+	text-align: center;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 399px;
+	width: 100%;
+	background-size: 100%;
+
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#success {
+	background: url(../img/success.jpg) no-repeat center top;
+	margin-top: 30px;
+	padding-top: 30px;
+	margin-bottom: 45px;
+	text-align: center;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 399px;
+	width: 100%;
+	background-size: 100%;
+
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#about {
+	background: url(../img/about.jpg) no-repeat center top;
+	margin-top: 30px;
+	padding-top: 30px;
+	margin-bottom: 45px;
+	text-align: center;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 399px;
+	width: 100%;
+	background-size: 100%;
+
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.centered {
+	text-align: center;
+	justify-content: center;
+	position: relative;
+}
+
+a {
+	color: blue;
+}
+
+a:hover, a:focus {
+	color: red;
+	text-decoration: none;
+}
+
+.title.r-title {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-align: center;
+    font: 20px/20px "Oswald", "Arial", "sans-serif";
+    color: #000000;
+    text-transform: uppercase;
+    padding: 0px 220px;
+    letter-spacing: 3px;
+}
+
+.title.r-title:before {
+    left: -0.5em;
+    margin: 0 0 0 -100%;
+}
+
+.title.r-title:before, .title.r-title:after {
+    content: "";
+    position: relative;
+    display: inline-block;
+    width: 50%;
+    height: 1px;
+    vertical-align: middle;
+    background: grey;
+    background-clip: content-box;
+}
+
+.title.r-title:after {
+    left: .5em;
+    margin: 0 -100% 0 0;
+}
+
+.requestacall {
+    float: left;
+    display: block;
+    width: 160px;
+    height: 40px;
+    padding: 3px 0px 0px 0px;
+    margin: -5px 10px 5px 0px;
+    font: 12px/12px "Oswald", "Verdana", "sans-serif";
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background: #e75f44;
+    border-bottom: 2px solid #f7b9ad;
+}
+
+.leavearequest {
+    float: left;
+    display: block;
+    width: 160px;
+    height: 40px;
+    padding: 3px 0px 0px 0px;
+    margin: -5px 10px 0px 0px;
+    font: 12px/12px "Oswald", "Verdana", "sans-serif";
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background: #127cc2;
+    border-bottom: 2px solid #76bceb;
+}
+
+.attachcv {
+    float: left;
+    display: block;
+    width: 100%;
+    height: 84px;
+    padding: 5px 0px 0px 0px;
+    margin: 00px 0px 0px 10px;
+    font: 20px/20px "Oswald", "Verdana", "sans-serif";
+    color: #ffffff;
+    text-align: center;
+	vertical-align: middle;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    background: #127cc2;
+    border-bottom: 2px solid #76bceb;
+}
+
+.fillcv {
+    float: left;
+    display: block;
+    width: 100%;
+    height: 84px;
+    padding: 5px 0px 0px 0px;
+    margin: 15px 0px 0px 10px;
+    font: 20px/20px "Oswald", "Verdana", "sans-serif";
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background: #e75f44;
+    border-bottom: 2px solid #f7b9ad;
+}
+
+.blueborder {
+    width: 100%; 
+    padding: 30px 0px 20px 0px;
+    margin: 15px 0px 0px 10px;
+    border: solid 2px #53aeea; 
+    float: left;
+    font: 20px/20px "Oswald", "Verdana", "sans-serif";
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 1.3;
+}
+
+.textblock { 
+	text-align: left;
+    width: 100%;
+    margin: 7px;
+    padding: 10px;
+}
+
+.textblockfooter { 
+	align-self: center;
+	text-align: left;
+    width: 100%;
+    margin: 20px;
+    padding: 10px;
+}
+
+li {
+    list-style-image: url(../img/li.jpg);
+   }
+
+.bluebordersmall {
+    width: 100%; 
+    padding: 30px 10px 20px 10px;
+    margin: 15px 0px 25px 10px;
+    border: solid 2px #53aeea; 
+    float: left;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+.b-footer-map {
+    height: 370px;
+    min-width: 1000px;
+    background: #414042;
+}
+
+#footerbuttons {
+	width: 50px;
+}
+
+#footertext {
+	text-align: left;
+	font-size: smaller;
+}
+
+#footertext2 {
+	text-align: left;
+	font-size: smaller;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-container>div {	
+  width: 300px;
+  margin: 20px;
+  text-align: left;
+  justify-content: left;
+}
+
+.flex-container>span {	
+  width: 300px;
+  margin: 20px;
+  text-align: left;
+  justify-content: center;
+}
+
+.training {
+	display: inline-block;
+	justify-content: center;
+	width: 250px;
+	vertical-align: top;
+	text-align: left;
+	height: 70px;
+}
+
+#borderleft {
+	border-left:  1px solid #bdcbd6;
+	padding-left: 30px;
+}
+
+
+.bottomfillcv {
+    float: left;
+    display: block;
+    width: 380px;
+    height: 178px;
+    padding: 20px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    font: 20px/20px "Oswald", "Verdana", "sans-serif";
+    color: #ffffff;
+    text-align: center;
+	vertical-align: middle;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    background: #127cc2;
+    border-bottom: 2px solid #76bceb;
+    line-height: 1.5;
+}
+
+.bottomcontacts {
+    float: left;
+    display: block;
+    width: 380px;
+    height: 178px;
+    padding: 20px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    font: 20px/20px "Oswald", "Verdana", "sans-serif";
+    color: #000;
+    text-align: center;
+	vertical-align: middle;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    background: #f1f1f1;
+    border-bottom: 2px solid #f6f6f6;
+    line-height: 1.5;
+}
+
+.mailinput {
+	justify-content: center;
+
+}
+
+#subscribe {
+   width: 160px;
+    height: 30px;
+    padding: 10px 0px 20px 0px;
+    margin: 00px 0px 0px 0px;
+    font: 12px/12px "Oswald", "Verdana", "sans-serif";
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background: #127cc2;
+    border-bottom: 2px solid #76bceb;
+}
+
+#careertext {
+	text-align: left;
+	text-transform: uppercase;
+	width: 60%;
+	vertical-align: middle;
+}
+
+#jobstext {
+	text-align: left;
+	text-transform: uppercase;
+	width: 60%;
+	vertical-align: middle;
+}
+
+#successtext {
+	text-align: left;
+	text-transform: uppercase;
+	width: 60%;
+	vertical-align: middle;
+}
+
+#trainingtext {
+	text-shadow: 1px 1px 10px white;
+	color: black;
+	text-align: left;
+	width: 40%;
+}
+
+#abouttext {
+	text-align: left;
+	width: 60%;
+	vertical-align: middle;
+}
+
+#exTab1 .tab-content {
+  padding : 15px 15px;
+  vertical-align: bottom;
+  text-transform: uppercase;
+
+}
+
+#exTab1 .nav-pills > li > a {
+  border-radius: 0;
+  padding: 18px;
+    width: 232px;
+  height: 55px;
+}
+
+#bottomintro {
+	position: absolute; 
+	bottom: -160px;
+} 
+
+#exTab2 .nav-pills > li > a {
+  border-radius: 0;
+  padding: 18px;
+  width: 180px;
+  height: 55px;
+  text-align: center;
+}
+
+#bottomintro2 {
+	position: absolute; 
+	bottom: -35px;
+} 
+
+#subscribemail {
+	width: 100%;
+    float: left;
+    margin: 20px;
+    font: 20px/20px "Oswald", "Verdana", "sans-serif";
+    color: black;
+    text-align: center;
+	vertical-align: middle;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+#justify {
+	justify-content: flex;
+}
+
+#backgroundfooter {
+	color: #868571;
+	font-size: small;
+    background-color: #414042;
+	margin-top: 50px;
+	padding-top: 30px;
+	text-align: center;
+	min-height: 366px;
+	width: 100%;
+
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#titlesfooter {
+	color: #c0c0c0;
+}
+
+#backgroundfooter2 {
+	color: white;
+	font-size: small;
+    background-color: #474747;
+	padding-top: 30px;
+	text-align: center;
+	width: 100%;
+
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#years {
+	text-align: left;
+	font: 15px/15px "Oswald", "Verdana", "sans-serif";
+}
+
+#yearsinfo {
+	text-align: left;
+	margin-left: 25px;
+	margin-top: 10px;
+	margin-right: 60px;
+}
+
+#nnjobs {
+	display: flex;
+  	flex-wrap: wrap;
+    float: left;
+    display: block;
+    width: 40%;
+    height: 84px;
+    padding: 10px 0px 0px 0px;
+    margin: 20px 0px 0px 10px;
+    font: 15px/15px "Oswald", "Verdana", "sans-serif";
+    color: #ffffff;
+    text-align: center;
+	vertical-align: middle;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    background: #127cc2;
+    border-bottom: 2px solid #76bceb;
+}
+
+#yearsinfo {
+	text-align: left;
+	margin-left: 25px;
+	margin-top: 10px;
+	margin-right: 60px;
+}
+
+#humans {
+	display: flex;
+  	flex-wrap: wrap;
+	text-align: ;
+	margin: 70px;
+	margin-top: 10px;
+	margin-right: 60px;
+}
+
+.flex-containerhuman {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-containerhuman>div {	
+  width: 100px;
+  margin: 40px;
+  text-align: left;
+  justify-content: left;
+}
+
+#oswald {
+    font: 15px/15px  "Oswald", "Arial", "sans-serif";
+}
+
+#oswaldwhite {
+	color: white;
+	font: 15px/15px  "Oswald", "Arial", "sans-serif";
+
+}
+
+#oswaldname {
+    font: 20px/20px  "Oswald", "Arial", "sans-serif";
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#whitetext {
+	color: white;
+}
